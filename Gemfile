@@ -15,7 +15,6 @@ gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.9', '>= 2.9.11'
 gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.0'
-gem 'aws-sdk', '~> 2.9', '>= 2.9.11'
 group :development, :test do
   gem 'byebug'
 end
