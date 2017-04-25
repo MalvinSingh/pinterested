@@ -83,7 +83,7 @@ Rails.application.configure do
 config.paperclip_defaults = {
   storage: :s3,
   s3_credentials: {
-    bucket: ENV.fetch('pinterested99malvin'),
+    bucket: ENV.fetch('pinterested99malvin.s3.amazonaws.com'),
     access_key_id: ENV.fetch('AKIAJGAG6RKDG6CAIOVQ'),
     secret_access_key: ENV.fetch('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'),
     s3_region: ENV.fetch('ap-southeast-1'),
