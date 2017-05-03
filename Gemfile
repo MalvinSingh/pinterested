@@ -8,13 +8,18 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass', '~> 3.3.1.0'
 gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.9', '>= 2.9.11'
 gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
+
+
 group :development, :test do
   gem 'byebug'
 end

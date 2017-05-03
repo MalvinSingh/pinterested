@@ -37,8 +37,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.4)
-    autoprefixer-rails (6.7.7.2)
-      execjs
     aws-sdk (2.9.11)
       aws-sdk-resources (= 2.9.11)
     aws-sdk-core (2.9.11)
@@ -50,9 +48,8 @@ GEM
     bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bootstrap-sass (3.3.7)
-      autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
+    bootstrap-sass (3.3.1.0)
+      sass (~> 3.2)
     builder (3.2.3)
     byebug (9.0.6)
     climate_control (0.1.0)
@@ -186,13 +183,16 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    will_paginate (3.1.5)
+    will_paginate-bootstrap (1.0.1)
+      will_paginate (>= 3.0.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   aws-sdk (~> 2.9, >= 2.9.11)
-  bootstrap-sass (~> 3.3, >= 3.3.7)
+  bootstrap-sass (~> 3.3.1.0)
   byebug
   coffee-rails (~> 4.1.0)
   devise (~> 4.2, >= 4.2.1)
@@ -211,6 +211,8 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+  will_paginate (~> 3.1, >= 3.1.5)
+  will_paginate-bootstrap (~> 1.0, >= 1.0.1)
 
 BUNDLED WITH
    1.14.6
